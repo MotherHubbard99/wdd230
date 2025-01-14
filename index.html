@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='author' content='Angela Hubbard'>
+    <meta name='description' content='Course WDD 230 - Web Frontend Development - Angela Hubbards course assignment portal'>
+    <title>Angela Hubbard - WDD230 - Web Frontend Development</title>
+    <link rel='stylesheet' href='styles/base.css'>
+    <link rel='stylesheet' href='styles/larger.css'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Bad+Script&family=Outfit:wght@100..900&display=swap' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img src="images/angieprofile.jpg" alt="Profile image of Angie Hubbard" loading="lazy" width="75" height="100">
+        <h1>Angie Hubbard</h1>
+    </header>
+    <div>
+        <nav class='navigation'>
+            <ul>
+                <li class = "active"><a href='siteplan.html'>Home</a></li>
+                <li><a href='chamber.html'>Chamber</a></li>
+                <li><a href='siteplan.html'>Site Plan</a></li>
+                <li><a href='form.html'>Form</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <div class="parent">
+            <section class="card">
+                <h2>Learning Activities</h2>
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+            </section>
+            <section class="card">
+                <h2>Information</h2>
+                    <h3>Weather Info</h3>
+                    <h3>Number of Visits</h3>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class='footer-grid'>
+            <p>&copy; <span id='current-year'></span></p> 
+            <p>🌸 Angie Hubbard 🌸</p>
+            <p>Last Modification: <span id='last-modified'></span></p>
+        </div>
+    </footer>
+    <script src='scripts/getDates.js' defer></script>
+</body>
+</html>
