@@ -19,10 +19,10 @@
 		"prefix": "html230",
 		"body": [
 			"<!DOCTYPE html>",
-			"<html lang='en-US'>",
+			"<html lang="en-US">",
 			"<head>",
-			"    <meta charset='UTF-8'>",
-			"    <meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+			"    <meta charset="UTF-8">",
+			"    <meta name="viewport' content='width=device-width, initial-scale=1.0">",
 			"    <meta name='author' content='Angela Hubbard'>",
 			"    <meta name='description' content='description'>",
 			"    <title>Emma's Housekeeping</title>",
