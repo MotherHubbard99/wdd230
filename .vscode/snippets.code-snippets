@@ -70,5 +70,21 @@
 			"<img src=\"images/${1:filename}\" alt=\"${2:Alternate Description}\" loading=\"lazy\" width=\"${3:200}\" height=\"${4:200}\">"
 		],
 		"description": "lazy load file"
+	},
+	"Meta Properties": {
+		"prefix": "metaProperties",
+		"body": [
+			"<meta property="og:title" content="Angie Hubbard Home Page WDD230" />
+    <meta property="og:type" content="website" />
+    <meta property="og.image" content="images/southweber.png" />
+    <meta property="og.url" content="https://motherhubbard99.github.io/wdd230/index.html" />"
+		],
+		"description": "lazy load file"
+	},
+	"Favortite Icon"{
+		"prefix": "favicon",
+		"body": [
+			"<link rel="icon" href="images/favicon.ico"> "
+		]
 	}
 }
