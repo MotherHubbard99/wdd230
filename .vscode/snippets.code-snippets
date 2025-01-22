@@ -72,19 +72,20 @@
 		"description": "lazy load file"
 	},
 	"Meta Properties": {
-		"prefix": "metaProperties",
+		"prefix": "htmlmetaProp",
 		"body": [
 			"<meta property="og:title" content="Angie Hubbard Home Page WDD230" />
     <meta property="og:type" content="website" />
     <meta property="og.image" content="images/southweber.png" />
     <meta property="og.url" content="https://motherhubbard99.github.io/wdd230/index.html" />"
 		],
-		"description": "lazy load file"
+		"description": "Meta Properties for social media"
 	},
 	"Favortite Icon"{
 		"prefix": "favicon",
 		"body": [
 			"<link rel="icon" href="images/favicon.ico"> "
-		]
+		],
+		"description": "favorite icon for web browser, tabbing, etc"
 	}
 }

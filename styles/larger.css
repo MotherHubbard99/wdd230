@@ -1,10 +1,24 @@
 @media screen and (min-width: 600px) {
     header {
-        background-color: black;
+     background-color: #c8c3cc;
         color: white;
     }
 
-    nav ul {
+    #menu {
+        display: none
+            /*hide hamburger button*/
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    ul.navigation {
         /*flex direction default is row */
         display: flex;
         /*spread them across the space allowed*/
