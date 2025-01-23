@@ -1,0 +1,207 @@
+* {
+    /*reset settings*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    font-family: "Bad Script", serif;
+    font-weight: 800;
+    font-style: normal;
+    justify-content: center;
+}
+
+
+header img {
+    border-radius: 20%;
+    border: 3px solid white;
+    /*adjust the spacing between the image and the text */
+    margin-right: 20px;
+}
+
+header,
+main,
+footer {
+    margin: 1rem auto;
+    border: 3px solid #8ca3a3;
+    padding: 1rem;
+    background-color: #c8c3cc;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+/*.parent {
+    margin: 1rem 2vw;
+}*/
+
+.parent section {
+    border: 2px solid #484f4f;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    /*makes the border radius crisp*/
+    margin: 1rem;
+}
+
+.parent h2 {
+    background-color: black;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+.parent p {
+    padding: 10px;
+}
+
+.parent .scenarios {
+    padding: 10px;
+}
+
+nav {
+    background-color: #563f46;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+}
+
+nav .active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero picture {
+    width: 250px;
+    /* Set a fixed width for each figure */
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    /* Maintains the image ratio */
+    border-top: 1vh solid black;
+    border-bottom: 1vh solid black;
+}
+
+#CallToAction {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 3vw;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: rgb(77, 77, 222);
+    color: white;
+    border: 4px double white;
+    transform: translateY(-50%);
+    z-index: 1;
+    /*make sure the button is on top of the image */
+}
+
+@media (max-width: 640px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    /*small view navigation*/
+    #menu nav {
+        position: absolute;
+    }
+
+    #menu {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+        font-size: 2rem;
+        border: 0;
+        background: none;
+        color: white;
+    }
+
+    #menu::before {
+        content: "☰";
+        font-size: 2rem;
+        background: black;
+        border: none;
+        color: white;
+    }
+
+    #menu.open::before {
+        content: "❎";
+    }
+
+    .navigation {
+        display: block;
+        justify-content: space-evenly;
+        list-style: none;
+        color: white;
+    }
+
+    .navigation a {
+        display: none;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navigation a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid white;
+    }
+
+    /* when the button is clicked - the open class is toggled (added/removed) */
+    .open a {
+        display: block;
+    }
+
+    /*.active::before {
+    content: "📍";
+    /* just a wayfinding symbol for the user */
+    /*
+}*/
+
+    .navigation .active {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
