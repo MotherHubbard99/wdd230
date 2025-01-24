@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name='author' content='Angela Hubbard'>
+    <meta name='description' content='Learning how to code Responsive Images.'>
+    <title>Responsive Images</title>
+    <link rel='stylesheet' href='styles/responsive-images.css'>
+    <script src='scripts/responsive-images.js' defer></script>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Bad+Script&family=Outfit:wght@100..900&display=swap' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/bountiful-small.webp" media="(max-width: 500px)">
+                <source srcset="images/bountiful-medium.webp" media="(max-width: 100px)">
+                <img src="images/bountiful-large.webp" alt="Bountiful, Utah Temple Hero Image" width="2" height="1">
+            </picture>
+            <h2>Bountiful, Utah Temple</h2>
+        </div>
+    </main>
+    <footer>
+        <div class='footer-grid'>
+            <p>&copy; <span id='current-year'></span> </p>
+            <p>WDD230 - Angela Hubbar - aka Angie</p>
+            <p>Last Modification: <span id='last-modified'></span></p>
+        </div>
+    </footer>
+</body>
+</html>

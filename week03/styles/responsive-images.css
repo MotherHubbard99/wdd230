@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Bad Script", serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+}
+
+header,
+main,
+footer {
+    border: 3px solid white;
+    padding: 1rem;
+    background-color: #c8c3cc;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
