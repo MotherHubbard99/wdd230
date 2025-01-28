@@ -51,7 +51,8 @@ footer {
     margin: 1rem 2vw;
 }*/
 
-.parent section {
+.parent section,
+.parent2 section {
     border: 2px solid #484f4f;
     background-color: white;
     border-radius: 10px;
@@ -60,7 +61,8 @@ footer {
     margin: 1rem;
 }
 
-.parent h2 {
+.parent h2,
+.parent2 h2 {
     background-color: black;
     color: #fff;
     display: block;
@@ -68,11 +70,13 @@ footer {
     padding: .75rem 0;
 }
 
-.parent p {
+.parent p,
+.parent2 p {
     padding: 10px;
 }
 
-.parent .scenarios {
+.parent .scenarios,
+.parent2 .scenarios {
     padding: 10px;
 }
 
