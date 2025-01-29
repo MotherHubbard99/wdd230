@@ -1,4 +1,4 @@
-//get the current year
+//get the current year :)
 const currentYear = new Date().getFullYear();
 
 //insert the current year into the element with id="current-year"
