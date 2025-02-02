@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) {
     header {
-     background-color: #c8c3cc;
+        background-color: #c8c3cc;
         color: white;
     }
 
@@ -38,6 +38,15 @@
     footer .footer-grid {
         display: flex;
         justify-content: center;
+    }
+
+    /*show the large map and hide the small map */
+    #small-view-map {
+        display: none;
+    }
+
+    #large-view-map {
+        display: block;
     }
 
 }

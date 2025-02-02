@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="images/angieprofile.jpg" alt="Profile image of Angie Hubbard" loading="lazy" width="75" height="100">
+        <img src="images/angieprofile.jpg" alt="Profile image of Angie Hubbard" loading="lazy">
         <h1>Angie Hubbard</h1>
     </header>
     <div>
@@ -52,15 +52,24 @@
             <section class="card">
                 <h2>Learning Activities</h2>
                     <ul>
-                        <li><b>Week 02:</b> <a href='week02/design.html'>Web Design Principles, </a><a href="https://codepen.io/MotherHubbard99/pen/NPKzEzp">Hamburger Menu in CodePen, and </a><a href = "week02/bom.html"</a>DOM Manipulation</li>
+                        <li><b>Week 02:</b> <a href='week02/design.html'>Web Design Principles, </a><a href="https://codepen.io/MotherHubbard99/pen/NPKzEzp">Hamburger Menu in CodePen, and </a><a href = "week02/bom.html">DOM Manipulation</a></li>
                         <li><b>Week 03:</b> <a href="week03/images/landscape.webp">WebP, </a><a href="week03/lazyload.html">Lazy Load, </a><a href="week03/responsive-images.html">Responsive Images, and </a><a href="week03/bom.html">Web Storage API - localStorage</a>
                     </ul>
             </section>
             <section class="card">
                 <h2>Information</h2>
                     <h3>Weather Info</h3>
-                    <h3>Number of Visits</h3>`1 `
+                    <p><span class="label">Visit Count: </span><span class="visits"></span></p>
             </section>
+        </div>
+        <div class="map">
+            <iframe 
+            id="small-view-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1502.5317095094713!2d-111.94053000160524!3d41.13314150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8753069723c8e8ad%3A0xe0cff410a0255711!2sCity%20Of%20South%20Weber!5e0!3m2!1sen!2sus!4v1738366252671!5m2!1sen!2sus" width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe 
+            id="large-view-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.0634203320774!2d-111.94072312409503!3d41.13314147133331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8753069723c8e8ad%3A0xe0cff410a0255711!2sCity%20Of%20South%20Weber!5e0!3m2!1sen!2sus!4v1738367224793!5m2!1sen!2sus" width="1400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </div>
     </main>
     <footer>

@@ -148,3 +148,55 @@ nav a {
 .navigation .active {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+.hero {
+    margin: 10px auto;
+    position: relative
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, #484f4f);
+    border: 2px, solid rgba(0, 0, 0, .75);
+    padding: 0.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin: 1rem;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.visits {
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/*Hide the large map by default */
+#large-view-map {
+    display: none;
+}
+
+.map iframe {
+    padding: 10px, 10px;
+}
