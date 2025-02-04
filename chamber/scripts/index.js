@@ -17,6 +17,16 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 });
 
-
-
-
+//display a welome message if this is the user's first visit
+const firstVisitElement = document.querySelector("#firstVisit");
+//check if firstVisit is in localStorage
+const IsFirstVisit = localStorage.getItem("firstVisit");
+//if it's the user's first visit
+if (!IsFirstVisit) {
+    firstVisitElement.textContent = "Welcome! Let us know if you have any questions.";
+    //store first visit on localStorage
+    localStorage.setItem("firstVisit", "true");
+} else {
+    //Display welcome back message
+    firstVisitElement.textContent = "Welcome Back!"
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angela Hubbard">
+    <meta name="description" content="Information for the City of South Weber, Utah">
+    <meta property="og:title" content="Discovery Page WDD230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://motherhubbard99.github.io/wdd230/images/southweber.png">
+    <meta property="og:url" content="https://motherhubbard99.github.io/wdd230/chamber/index.html">
+    <title>South Weber, Utah - Discovery</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="../images/southweber.webp" alt="Profile image of South Weber, Utah" loading="lazy" width="90" height="100">
+        <h1>South Weber, Utah - Chamber Discovery</h1>
+    </header>
+    <button id="menu"></button>
+    <nav>
+        <ul class='navigation'>
+                <li><a href='../index.html'>Home</a></li>
+                <li><a href='index.html'>Chamber</a></li>
+                <li><a href="../week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href='form.html'>Form</a></li>
+            </ul>
+        </nav>
+    <main>
+        <section class="card">
+            <section class="info">
+
+                <p><span id='firstVisit'></span></p>
+
+                <h2>February</h2>
+                <ul>
+                    <li>1st: Justice Court</li>
+                    <li>2nd: Groundhog Day </li>
+                    <li>3rd: City Council Retreat</li>
+                    <li>8th: Planning Commission Meeting</li>
+                    <li>10th: Daddy Daughter Dance</li>
+                    <li>14th: Valentine's Day</li>
+                    <li>15th: Justice Court</li>
+                    <li>16th: Senior Lunch</li>
+                    <li>19th: President's Day</li>
+                    <li>27th: City Council Meeting</li>
+                </ul>
+                <h2>Daddy Daughter Date</h2>
+                <p>We are delighted to extend a royal invitation for you and your princess to attend a magical evening at our Daddy Daughter Date 🩷 Join us at the Family Activity Center On February 10th from 6 pm to 8 pm. The cost is $10 per Dad and princesses are FREE 👸 </p>
+                <h2>SAVE THE DATE for our annual Easter Egg Hunt 🧺</h2>
+                <p>Join us on Friday, April 18th at 5 pm for our egg hunt eggtravaganza. </p>
+                <h3>Age-Appropriate Hunts</h3>
+                <p>Eggs are hidden with care, separated by age groups to keep the fun safe and fair.</p>
+                <h3>Weather-Permitting</h3>
+                <p>Keep an eye on our website and Facebook for any updates due to weather.</p>
+            </section>
+            <section class="pics">
+                <picture>
+                    <source srcset="images/groundhog-small.webp" media="(max-width:500px)">
+                    <img src="images/groundhog-large.webp" alt="Groundhog" loading="lazy">
+                </picture>
+                <div class="picslabel">
+                    <p>February 2nd: Did the groundhog see his shadow?</p>
+                </div>
+                <picture>
+                    <source srcset="images/princess-smaller.webp" media="(max-width:500px)">
+                    <img src="images/princess-large.webp" loading="lazy" alt="image of a girl dressed up as a princess">
+                </picture>
+                <div class="picslabel">
+                    <p>Daddy Daughter Date: Feb 10th 6 pm to 8 pm </p>
+                </div>
+                <picture>
+                    <source srcset="images/heart-large.webp" media="(max-width:500px)">
+                    <img src="images/heart-large.webp" alt="Valentines Day" loading="lazy">
+                </picture>
+                <div class="picslabel">
+                    <p>Happy Valentine's Day</p>
+                </div>
+                <picture>
+                    <source srcset="images/senior-lunch-small.webp" media="(max-width:500px)">
+                    <img src="images/senior-lunch.webp" alt="Senior's Lunch" loading="lazy">
+                </picture>
+                <div class="picslabel">
+                    <p>February 16th: Senior's Lunch</p>
+                </div>
+                <picture>
+                    <source srcset="images/easter-small.webp" media="(max-width:500px)">
+                    <img src="images/easter-large.webp" alt="Valentines Day" loading="lazy">
+                </picture>
+                <div class="picslabel">
+                    <p>Save The Date: April 18th at 5 pm</p>
+                </div>  
+                <picture>
+                    <source srcset="images/city-meeting-small.webp" media="(max-width:500px)">
+                    <img src="images/city-meeting-large.webp" loading="lazy" alt="image of a city council meeting">
+                </picture>
+                <div class="picslabel">
+                    <p>City Council Meeting: Feb 27th</p>
+                </div>
+    
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class='footer-grid'>
+            <p>&copy; <span id='current-year'></span></p> 
+            <p>🌸 Angie Hubbard: WDD230 Chamber Project🌸</p>
+            <p>Last Modification: <span id='last-modified'></span></p>
+        </div>
+    </footer>
+    <script src='scripts/index.js' defer></script>
+</body>
+</html>

@@ -47,11 +47,8 @@ footer {
     padding: 2rem;
 }
 
-/*.parent {
-    margin: 1rem 2vw;
-}*/
-
-.parent section {
+.parent,
+.info {
     border: 2px solid #484f4f;
     background-color: white;
     border-radius: 10px;
@@ -60,20 +57,28 @@ footer {
     margin: 1rem;
 }
 
-.parent h2 {
-    background-color: black;
-    color: #fff;
-    display: block;
+.parent h2,
+.info h2 {
+    /*display: block;*/
     text-align: center;
     padding: .75rem 0;
 }
 
-.parent p {
+.info h2 {
+    color: pink;
+}
+
+.parent p,
+.info p {
     padding: 10px;
 }
 
-.parent .scenarios {
-    padding: 10px;
+.info li {
+    padding: 8px;
+}
+
+.info p {
+    line-height: 1.6;
 }
 
 nav {
@@ -81,7 +86,8 @@ nav {
     margin: 0 auto;
 }
 
-nav ul {
+nav ul,
+.card .info ul {
     list-style-type: none;
 }
 
@@ -213,26 +219,58 @@ nav .active {
     height: 300px;
 }
 
-.hero img {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.herolabel {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    background: radial-gradient(#fff, #484f4f);
-    border: 1px solid rgba(0, 0, 0, .75);
-    padding: 1.5rem;
-    box-shadow: 0 0 3rem #fff;
-    opacity: 0.75;
+.picslabel {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    padding: 10px;
 }
 
 .herolabel p {
     margin: 0;
     font-weight: 700;
     font-size: 1.5rem;
-    font-family: cursive;
+}
+
+/*Chamber discover.html */
+.card {
+    display: block;
+    gap: 10px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 2px solid #484f4f;
+}
+
+.card .info {
+    font-size: 1.5rem;
+}
+
+
+.pics {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    gap: 10px;
+}
+
+.pics picture {
+    width: 100%;
+    display: flex;
+    /*center the images*/
+    justify-content: center;
+    align-items: center;
+}
+
+.pics img {
+    padding-top: 20px;
+    max-width: 100%;
+    height: auto;
+    transition: border-radius 0.3s ease;
+    /* Smooth transition effect */
+}
+
+/*Add a border radius only when a picture is being hovered over */
+.pics img:hover {
+    border-radius: 55px;
+    /* Adjust the radius as needed */
 }
