@@ -55,4 +55,3 @@ localStorage.setItem("numVisits-ls", numVisits);
 //a client can view the localStorage data using the Application panel in the browser's DevTools - check it out on any major site
 
 
-
