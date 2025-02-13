@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bord: 1px solid #777;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
