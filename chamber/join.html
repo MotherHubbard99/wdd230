@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angela Hubbard">
+    <meta name="description" content="Chamber of Commerce - Form">
+    <meta property="og:title" content="Form for Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://motherhubbard99.github.io/wdd230/images/southweber.png">
+    <meta property="og:url" content="https://motherhubbard99.github.io/wdd230/chamber/join.html">
+    <title>South Weber, Utah - Chamber of Commerce - Membership Application</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="../images/southweber.webp" alt="Profile image of South Weber, Utah" loading="lazy" width="90" height="100">
+        <h1>South Weber, Utah - Chamber of Commerce - Membership Application</h1>
+    </header>
+    <button id="menu" alt="hamburger button"></button>
+    <nav>
+        <ul class='navigation'>
+                <li><a href='../index.html'>Home</a></li>
+                <li><a href='index.html'>Chamber</a></li>
+                <li><a href="../week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href='form.html'>Form</a></li>
+            </ul>
+        </nav>
+    <main>
+                <form method="get" action="thankyou.html" class="wf1">
+                    <fieldset>
+                        <legend>Membership Application</legend>
+                        <label id="firstname">First Name*
+                        <input type="text" name="firstname" required></label>  
+                        <label id="lastname">Last Name*
+                        <input type="text" name="" required></label> 
+
+                        <label>Email Address*<input type="email" name="email" placeholder="someone@gmail.com" pattern="[a-zA-Z0-9._%+-]+@\$" required id="email"></label>
+                        <div class="emailError" id="error-message"></div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Business Information</legend>
+                        <label id="title">Title or Position
+                        <input type="text" name="title" pattern=[A-Za-z\s-]{7,} title="Please enter at least 7 characters (only letters, hyphens and spaces)"></label> 
+
+                        <label id="business-name">Business/Organization Name*
+                        <input type="text" name="business-name" required></label>
+
+                        <label id="description">Business/Organization Description
+                            <input type="text" name="description"></label>
+                        
+                    </fieldset>
+                    <fieldset id="radio">
+                        <legend>Membership Level</legend>
+                        <label id="non-profit">
+                        <input type="radio" name="membership" required>Non-Profit Membership</label>
+                        <label id="bronze">
+                        <input type="radio" name="membership" required>Bronze Membership</label>
+                        <label id="silver">
+                        <input type="radio" name="membership" required>Silver Membership</label>
+                        <label id="gold">
+                        <input type="radio" name="membership" required>Gold Membership</label>
+                    </fieldset>
+                        
+                    <button type="submit" id="submit">Send Membership Application</button>
+                    </fieldset>
+
+                    <input type="hidden" id="timestamp" name="timestamp">
+                    <div class="timestamp" id="timestampDisplay"></div>
+                
+                </form>
+
+    </main>
+    <footer>
+        <div class='footer-grid'>
+            <p>&copy; <span id='current-year'></span></p> 
+            <p>🌸 Angie Hubbard: WDD230 Chamber Project Form 🌸</p>
+            <p>Last Modification: <span id='last-modified'></span></p>
+        </div>
+    </footer>
+    <script src='scripts/index.js' defer></script>
+</body>
+</html>

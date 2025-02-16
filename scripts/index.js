@@ -47,7 +47,7 @@ if (numVisits !== 0) {
 } else {
 	visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
 }
-//4️⃣ increment the numbe of visits by 1 
+//4️⃣ increment the number of visits by 1 
 numVisits++;
 
 //5️⃣store the new visit total into localStorage, key=numVisits-ls
