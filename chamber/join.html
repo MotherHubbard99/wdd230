@@ -22,7 +22,7 @@
         <img src="../images/southweber.webp" alt="Profile image of South Weber, Utah" loading="lazy" width="90" height="100">
         <h1>South Weber, Utah - Chamber of Commerce - Membership Application</h1>
     </header>
-    <button id="menu" alt="hamburger button"></button>
+    <button id="menu" title="hamburger button"></button>
     <nav>
         <ul class='navigation'>
                 <li><a href='../index.html'>Home</a></li>
@@ -38,7 +38,7 @@
                         <label id="firstname">First Name*
                         <input type="text" name="firstname" required></label>  
                         <label id="lastname">Last Name*
-                        <input type="text" name="" required></label> 
+                        <input type="text" name="lastname" required></label> 
 
                         <label>Email Address*<input type="email" name="email" placeholder="someone@gmail.com" pattern="[a-zA-Z0-9._%+-]+@\$" required id="email"></label>
                         <div class="emailError" id="error-message"></div>
@@ -67,8 +67,9 @@
                         <label id="gold">
                         <input type="radio" name="membership" required>Gold Membership</label>
                     </fieldset>
-                        
-                    <button type="submit" id="submit">Send Membership Application</button>
+
+                    <fieldset> 
+                        <button type="submit" id="submit">Send Membership Application</button>
                     </fieldset>
 
                     <input type="hidden" id="timestamp" name="timestamp">
