@@ -1,0 +1,23 @@
+{
+    "familyName": "Hubbard",
+    "dateMovedIn": "2014-10-01",
+    "numberOfPeople": 3,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name":"Shane Hubbard",
+            "gender": "male",
+            "birthdate": "03-05-1972"
+        },
+        {
+            "name": "Angie Hubbard",
+            "gender": "female",
+            "birthdate": "11-23-1978"
+        },
+        {
+            "name": "Ashton Hubbard",
+            "gender": "male",
+            "birthdate": "05-04-2007"
+        }
+    ]
+}

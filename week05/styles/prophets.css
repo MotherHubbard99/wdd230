@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(320px, 1fr));
+    gap: 16px;
+    max-width: 100vw;
+    /*center the grid horizontally*/
+    margin: 0 auto;
+    border: 2px dotted #eee;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
