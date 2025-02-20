@@ -41,7 +41,7 @@
         height: 100%;
         display: block;
     }
-    
+
     .herolabel {
         position: absolute;
         top: 30px;
@@ -56,5 +56,21 @@
     .info h2 {
         font-size: 40px;
         padding-top: 20px;
+    }
+
+    /*DIRECTORY.HTML*/
+    .grid #members-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    .list .member-card {
+        display: block;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        margin: 2px;
+        max-width: 1200px;
+        width: 100%;
+        
     }
 }

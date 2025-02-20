@@ -33,3 +33,4 @@ if (!IsFirstVisit) {
 
 // Set the value of the hidden input field with the current date and time
 document.getElementById("timestamp").value = new Date().toISOString();
+

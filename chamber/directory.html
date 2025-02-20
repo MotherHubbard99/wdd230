@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angela Hubbard">
+    <meta name="description" content="Directory for the City of South Weber, Utah">
+    <meta property="og:title" content="Directory for the South Weber Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://motherhubbard99.github.io/wdd230/images/southweber.png">
+    <meta property="og:url" content="https://motherhubbard99.github.io/wdd230/chamber/directory.html">
+    <title>South Weber, Utah - Chamber of Commerce Directory</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="../images/southweber.webp" alt="Profile image of South Weber, Utah" loading="lazy" width="90" height="100">
+        <h1>South Weber, Utah - Chamber of Commerce Directory</h1>
+    </header>
+    <button id="menu" alt="hamburger button"></button>
+    <nav>
+        <ul class='navigation'>
+                <li><a href='../index.html'>Home</a></li>
+                <li class = "active"><a href='index.html'>Chamber</a></li>
+                <li><a href="../week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href='join.html'>Form</a></li>
+            </ul>
+        </nav>
+    <main>
+        <h1>Business Directory</h1>
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>                <button id="list">📄List</button>
+        </div>
+        <article class= "grid">
+            <div id="members-container"></div>
+        </article>
+    </main>
+    <footer>
+        <div class='footer-grid'>
+            <p>&copy; <span id='current-year'></span></p> 
+            <p>🌸 Angie Hubbard: WDD230 Chamber Project🌸</p>
+            <p>Last Modification: <span id='last-modified'></span></p>
+        </div>
+    </footer>
+    <script src='scripts/index.js' defer></script>
+    <script src='scripts/directory.js' defer></script>
+</body>
+</html>
