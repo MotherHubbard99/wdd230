@@ -5,7 +5,7 @@
         "phone": "801-479-7459",
         "url": "https://burlyburger.com/",
         "image": "images/burlyburger.webp",
-        "membership": "N/A",
+        "membership": "silver",
         "info": "GET SOME BURGER IN YOUR BEARD! We make burgers fresh, tasty and bigger than most people can eat..."
     },
     {
@@ -14,7 +14,7 @@
         "phone": "385-835-2864",
         "url": "https://mysodalicious.com",
         "image": "images/sodalicious.webp",
-        "membership": "N/A",
+        "membership": "bronze",
         "info": "MIXOLOGY: Let us help you find your perfect drink."
     },
     {
@@ -23,7 +23,7 @@
         "phone": "801-528-7749",
         "url": "https://littlecaesars.com/en-us/store/11704/",
         "image": "images/littlecaesers.webp",
-        "membership": "N/A",
+        "membership": "bronze",
         "info": "Hot N Ready pizza to go"
     },
     {
@@ -32,7 +32,7 @@
         "phone": "801-479-7918",
         "url": "https://locations.maverik.com/ut/south-weber/2577-south-weber-drive",
         "image": "images/maverik.webp",
-        "membership": "No membership needed, but there are benefits in your wallet with a Maverik Nitro card.",
+        "membership": "gold",
         "info": "Adventure's First Stop"
     },
     {
@@ -41,7 +41,7 @@
         "phone": "385-432-0761",
         "url": "https://mortyscarwash.com/contact/",
         "image": "images/mortys.webp",
-        "membership": "No membership needed, but there is Wash Club Pricing for every monthly membership purchased.",
+        "membership": "bronze",
         "info": "Convenient, state-of-the-art car wash in South Weber, Utah."
     },
     {
@@ -50,7 +50,7 @@
         "phone": "801-462-0960",
         "url": "https://www.skinsee.com/locations/south-weber/",
         "image": "images/ski.webp",
-        "membership": "N/A",
+        "membership": "gold",
         "info": "Utah's Local Ski & Board Rental Shop"
     },
     {
@@ -59,7 +59,7 @@
         "phone": "801-479-7045",
         "url": "https://www.mlpt.com/southweber/",
         "image": "images/mountain.webp",
-        "membership": "N/A",
+        "membership": "gold",
         "info": "Physical Therapy"
     }
 ]
