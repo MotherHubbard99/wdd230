@@ -34,3 +34,17 @@ if (!IsFirstVisit) {
 // Set the value of the hidden input field with the current date and time
 document.getElementById("timestamp").value = new Date().toISOString();
 
+//BANNER ONLY on Mon, Tues, and Wed
+document.addEventListener("DOMContentLoaded", function () {
+    const banner = document.getElementById("banner");
+    const closeBanner = document.getElementById("closeBanner");
+    const today = new Date().getDay();
+    if (today === 1 || today === 2 || today === 3 || today === 4) {
+        banner.style.display = "block";
+    }
+    //allow the user to close the banner
+    closeBanner.addEventListener("click", function () {
+        banner.style.display = "none";
+    })
+});
+
